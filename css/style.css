@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Mali:wght@700&display=swap");
+body {
+  font-size: 22px;
+}
+main {
+ font-family: monospace;}
+ p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Mali', cursive;
+ }
+ .highligh{
+    background-color: chocolate;
+ }
+#p1{
+    color: chartreuse;
+}
+/* ul>.li-Class{
+    font-size: 40px;
+    color: brown;
+} */
+/* ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: hotpink;
+    font-size: 36px;
+    font-weight: 700;
+    list-style-image: url(./images/checklist.png);
+}
+ul li:first-child{
+    color: lime;
+} */
+a{
+    font-size: 40px;
+    color: rgb(90, 167, 235);
+}
+a:focus{
+    color: gold;
+}
+a:hover{
+    color: deeppink;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
+/*---css display---*/
+
