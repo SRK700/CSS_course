@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+}
+img{
+    display: block;
+}
+.container{
+    background-color: antiquewhite;
+    background-image: url(../css/images/mountain.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+}
+.deer-profile{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.profile-pic-figure{
+    width: 35%;
+}
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double red;
+    border-radius: 15px;
+}
+.h1{
+    font-size: 500%;
+    color: fuchsia;
+    text-shadow: 2px 2px 5px;
+}
+.offscreen{
+    position: absolute;
+    display: none;
+}

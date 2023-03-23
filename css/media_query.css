@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: blue;
+  background-image: radial-gradient(white,blue);
+  display: flex;
+  flex-direction: column;
+}
+header,nav,main,footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header,footer{
+    position: sticky;
+    color: rgb(216, 218, 236);
+    background-color: aqua;
+    padding: 0.5rem;
+    border-bottom:  2px solid black;
+}
+header{
+    top: 0;
+}
+nav{
+    background-color: rgb(243, 248, 251);
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    bottom: 0;
+}
+/* @media screen and (min-width:7px) {
+    body{
+        background-color: brown;
+        background-image: radial-gradient(white,red);
+    }
+    nav{
+        display: none;
+    }
+    
+} */
+@media screen and (min-width:768px) {
+    body{
+        background-color: brown;
+        background-image: radial-gradient(white,red);
+    }
+   
+}
+
+@media screen and (min-width:992px) {
+    body{
+        background-color: brown;
+        background-image: radial-gradient(rgb(234, 168, 168),rgb(255, 0, 144));
+    }
+   
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-color: brown;
+        background-image: radial-gradient(rgb(144, 219, 149),rgb(30, 255, 0));
+    }
+   
+}
+@media screen and (min-width:425px) and (min-aspect-ratio:7/4) {
+    body{
+        background-color: brown;
+        background-image: radial-gradient(rgb(56, 46, 46),rgb(212, 255, 0));
+    }
+   
+}
